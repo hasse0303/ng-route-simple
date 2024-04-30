@@ -1,0 +1,5 @@
+<p>home works!</p>
+<input #animalInput type="text" placeholder="Enter animal">
+<button (click)="addAnimal(animalInput.value)">Add</button>
+
+<app-show-animals [data]="animals"></app-show-animals>
